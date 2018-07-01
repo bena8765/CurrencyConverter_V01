@@ -1,7 +1,7 @@
 	const cacheName = 'cache-v2';
 
 	const filesToCache = [
-		'./index.html',
+		'/index.html',
 		'js/app.js',
 		'js/idb.js',
 		'js/jquery.min.js',
