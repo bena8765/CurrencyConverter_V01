@@ -1,7 +1,7 @@
 	 /*Registering the Service Worker*/
 	if ('serviceWorker' in navigator) {
 		window.addEventListener('load', () => {
-			navigator.serviceWorker.register('/CurrencyConverter_V01/sw.js').then(registration => {
+			navigator.serviceWorker.register('./sw.js').then(registration => {
 				console.log('Service worker successfully registered on scope', registration.scope);
 			}).catch(error => {
 				console.log('Service worker failed to register');
