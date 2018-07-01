@@ -5,9 +5,7 @@
 		'js/app.js',
 		'js/idb.js',
 		'js/jquery.min.js',
-		'css/style.css',
-		'node_modules/bootstrap/dist/css/bootstrap.min.css',
-		'node_modules/bootstrap/dist/js/bootstrap.min.js'		
+		'css/style.css'		
 	];
 
 	self.addEventListener('install', event => {
