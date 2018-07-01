@@ -1,15 +1,13 @@
 	const cacheName = 'cache-v2';
 
 	const filesToCache = [
-		'/',
-		'/index.html',
-		'/js/app.js',
-		'/js/idb.js',
-		'/js/jquery.min.js',
-		'/css/style.css',
-		'/node_modules/bootstrap/dist/css/bootstrap.min.css',
-		'/node_modules/bootstrap/dist/js/bootstrap.min.js',
-		'https://www.w3schools.com/w3css/4/w3.css'
+		'./index.html',
+		'js/app.js',
+		'js/idb.js',
+		'js/jquery.min.js',
+		'css/style.css',
+		'node_modules/bootstrap/dist/css/bootstrap.min.css',
+		'node_modules/bootstrap/dist/js/bootstrap.min.js'		
 	];
 
 	self.addEventListener('install', event => {
